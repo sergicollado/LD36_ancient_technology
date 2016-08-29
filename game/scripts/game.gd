@@ -100,6 +100,8 @@ func _input(event):
 		else:
 			mode = MODE_NORMAL
 			_zoom_interpolation(NORMAL_ZOOM)
+	if event.is_action_pressed("fullscreen"):
+		OS.set_window_fullscreen(!OS.is_window_fullscreen())
 
 func _finish_game(message):
 	get_node("UICanvas/ZoneTitle").fade_in()

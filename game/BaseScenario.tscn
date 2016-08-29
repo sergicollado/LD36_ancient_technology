@@ -238,7 +238,7 @@ autoplay = ""
 
 [node name="ship" parent="." instance=ExtResource( 4 )]
 
-transform/pos = Vector2( 107140, 154878 )
+transform/pos = Vector2( 6849.48, 8879.23 )
 
 [node name="Boundary" type="Area2D" parent="."]
 
