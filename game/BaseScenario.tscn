@@ -91,7 +91,7 @@ tracks/0/keys = { "times":FloatArray( 0, 2, 16.9, 18.9 ), "transitions":FloatArr
 [sub_resource type="RectangleShape2D" id=12]
 
 custom_solver_bias = 0.0
-extents = Vector2( 43565.2, 373.3 )
+extents = Vector2( 146022, 721.019 )
 
 [node name="RootNode" type="Node2D"]
 
@@ -242,10 +242,9 @@ transform/pos = Vector2( 6849.48, 8879.23 )
 
 [node name="Boundary" type="Area2D" parent="."]
 
-editor/display_folded = true
 input/pickable = true
 shapes/0/shape = SubResource( 12 )
-shapes/0/transform = Matrix32( 1, 0, 0, 69.6836, 36153.4, 12693.1 )
+shapes/0/transform = Matrix32( 0.681378, 0, 0, 109.202, 96735.7, 71344.6 )
 shapes/0/trigger = false
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -254,9 +253,8 @@ angular_damp = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Boundary"]
 
-visibility/visible = false
-transform/pos = Vector2( 36153.4, 12693.1 )
-transform/scale = Vector2( 1, 69.6836 )
+transform/pos = Vector2( 96735.7, 71344.6 )
+transform/scale = Vector2( 0.681378, 109.202 )
 shape = SubResource( 12 )
 trigger = false
 _update_shape_index = 0

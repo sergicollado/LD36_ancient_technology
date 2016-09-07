@@ -6,7 +6,7 @@ load("res://assets/graphics/meteorito03.atex")]
 
 var max_x = 0
 var max_y = 0
-const COUNT = 500
+const COUNT = 800
 
 func generate(x, y):
 	randomize()

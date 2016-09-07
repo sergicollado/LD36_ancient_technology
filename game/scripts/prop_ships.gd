@@ -6,7 +6,7 @@ load("res://assets/graphics/burger_box_1.tex")]
 
 var max_x = 0
 var max_y = 0
-const COUNT = 100
+const COUNT = 200
 
 func generate(x, y):
 	randomize()
